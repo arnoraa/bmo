@@ -39,6 +39,7 @@ section {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 
@@ -60,7 +61,7 @@ section {
     transform: translateY(-3px);
 }
 
-.hovedmenu h1 {
+.titel h1 {
     text-align: center;
     font-size: 56px;
     font-family: 'Times New Roman', Times, serif;
@@ -287,8 +288,95 @@ article p {
 .indsigt p {
     margin: 0;
 }
+.budskab {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    color: #4D300F;
+    max-width: 40ch;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
+
+.nogletal {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 50px;
+    margin: 0;
+    padding: 0 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #4D300F;
+}
+
+.nogletal b {
+    display: block;
+    font-size: 48px;
+    line-height: 1;
+}
+
+#cta {
+    background-color: #FFCF21;
+    box-sizing: border-box;
+    padding: 35px;
+    margin: 35px 0;
+    outline-style: inset;
+    outline-color: #CC8B41;
+    font-family: "Times New Roman", Times, serif;
+    color: #4D300F;
+}
+
+#cta h2,
+#cta p {
+    text-align: left;
+}
+
+.cta-kort {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.kort {
+    display: grid;
+    gap: 6px;
+    padding: 20px;
+    background: #FFF9ED;
+    border: 2px solid #4D300F;
+    border-radius: 15px;
+    color: #4D300F;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.kort:hover,
+.kort:focus-visible {
+    background: #4D300F;
+    color: #FFFFFF;
+    transform: translateY(-3px);
+}
+
+.kort strong {
+    font-size: 28px;
+}
+
+.kort .mærke {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.kort .link {
+    margin-top: 8px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 footer {
+    box-sizing: border-box;
     background-color: #FFE77D;
     color: #4D300F;
     width: 100%;
