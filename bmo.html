@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bolle med ost</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <nav class="linjediagram">
+                <ul>
+                    <li><a href="#ostetype">Gennemsnit pr. ostetype</a></li>
+                    <li><a href="#prisgruppe">Gennemsnit pr. prisgruppe</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="overskrift">
+            <h1>Bolle med ost</h1>
+        </div>
+    </header>
+    <main>
+
+        <section id="ostetype">
+            <h2>Gennemsnit pr. ostetype</h2>
+            <p>Linjegrafen viser BMO-score pr. ostetype. Kun oste mindst 5 steder.</p>
+            <canvas id="osteTyper"></canvas>
+        </section>
+
+        <br>
+
+        <section id="prisgruppe">
+            <h2>Gennemsnit pr. prisgruppe</h2>
+            <p>Linjegrafen viser BMO-score pr. prisgruppe. Steder uden registreret pris er udeladt.</p>
+            <canvas id="prisGrupper"></canvas>
+        </section>
+    </main>
+<script src="main.js"></script>
+</body>
+</html>
