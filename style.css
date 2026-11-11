@@ -104,3 +104,64 @@ header {
     font-family: "Times New Roman", Times, serif;
 }
 
+#pivot {
+    background-color: #FFCF21;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    outline-style: inset;
+    outline-color: #CC8B41;
+    font-family: "Times New Roman", Times, serif;
+    color: #4D300F;
+}
+
+#pivot h2,
+#pivot p {
+    text-align: left;
+}
+
+.tabel-ramme {
+    overflow-x: auto;
+}
+
+#pivot table {
+    width: 100%;
+    min-width: 36rem;
+    border-collapse: collapse;
+    background: #FFE77D;
+}
+
+#pivot caption {
+    text-align: left;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+#pivot th,
+#pivot td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #CC8B41;
+    text-align: right;
+}
+
+#pivot th:first-child,
+#pivot th:last-child,
+#pivot td:last-child {
+    text-align: left;
+}
+
+#pivot thead th {
+    background: #4D300F;
+    color: #FFFFFF;
+}
+
+#pivot tbody tr:hover {
+    background: #FFCF21;
+}
+
+#pivot .total th,
+#pivot .total td {
+    font-weight: bold;
+    border-top: 2px solid #4D300F;
+}
+

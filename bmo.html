@@ -18,6 +18,9 @@
                     <li>
                         <a href="#prisgruppe">Pristyper</a>
                     </li>
+                    <li>
+                        <a href="#pivot">Byer</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -48,6 +51,100 @@
             <p>Søjlediagrammet viser BMO-score pr. prisgruppe. Steder uden registreret pris er udeladt.</p>
             <canvas id="prisGrupper"></canvas>
         </section>
+
+        <br>
+
+        <section id="pivot">
+            <h2>Nordvest og Aarhus scorer højest, Indre by koster mest</h2>
+            <p>Pivottabellen viser gennemsnit pr. by eller bydel. Kun steder med mindst 4 besøg har egen række.</p>
+            <div class="tabel-ramme">
+                <table>
+                    <caption>Gennemsnitlig BMO-score og pris pr. by eller bydel</caption>
+                    <thead>
+                    <tr>
+                        <th scope="col">By / bydel</th>
+                        <th scope="col">Steder</th>
+                        <th scope="col">Gns. BMO-score</th>
+                        <th scope="col">Gns. pris</th>
+                        <th scope="col">Bedste sted</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Nordvest</th>
+                        <td>4</td>
+                        <td>4,95</td>
+                        <td>33,2 kr.</td>
+                        <td>Skruens (5,5)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Aarhus</th>
+                        <td>5</td>
+                        <td>4,88</td>
+                        <td>28,0 kr.</td>
+                        <td>Berta (5,8)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Amager</th>
+                        <td>7</td>
+                        <td>4,71</td>
+                        <td>36,9 kr.</td>
+                        <td>Sneezing Fruits (5,6)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Vesterbro</th>
+                        <td>7</td>
+                        <td>4,60</td>
+                        <td>36,8 kr.</td>
+                        <td>Københavns Bageri (5,2)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Nørrebro</th>
+                        <td>20</td>
+                        <td>4,48</td>
+                        <td>34,4 kr.</td>
+                        <td>Depanneur (5,4)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Østerbro</th>
+                        <td>14</td>
+                        <td>4,39</td>
+                        <td>35,8 kr.</td>
+                        <td>Juno (5,8)</td>
+                    </tr>
+                    <tr class="laveste-pris">
+                        <th scope="row">Indre by</th>
+                        <td>12</td>
+                        <td>4,36</td>
+                        <td>44,8 kr.</td>
+                        <td>Atelier September (5,4)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Frederiksberg</th>
+                        <td>6</td>
+                        <td>4,08</td>
+                        <td>28,2 kr.</td>
+                        <td>Daniali &amp; Schiøtz (4,9)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Øvrige steder</th>
+                        <td>26</td>
+                        <td>3,77</td>
+                        <td>34,8 kr.</td>
+                        <td>Brandt Brød (5,6)</td>
+                    </tr>
+                    <tr class="total">
+                        <th scope="row">Alle</th>
+                        <td>101</td>
+                        <td>4,31</td>
+                        <td>35,6 kr.</td>
+                        <td>Juno (5,8)</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
     </main>
 <script src="main.js"></script>
 </body>
