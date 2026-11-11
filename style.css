@@ -4,6 +4,7 @@ html {
 
 body {
     background: #F5EDE1;
+    margin: 0;
 }
 
 header {
@@ -164,4 +165,22 @@ header {
     font-weight: bold;
     border-top: 2px solid #4D300F;
 }
+
+#pivot .laveste-pris td:nth-child(3) {
+    background: #4D300F;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #FFE77D;
+    color: #4D300F;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    margin: 20px auto;
+    font-family: Times, serif;
+    font-size: 16px;
+}
+
 
