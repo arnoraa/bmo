@@ -1,6 +1,15 @@
 const ost = document.querySelector('#osteTyper').getContext('2d');
 const osteTyper = new Chart(ost, {
     type: 'bar',
+    options: {
+        plugins: {
+            legend: { display: false }
+        },
+        scales: {
+            x: { ticks: { font: { size: 14 } } },
+            y: { ticks: { font: { size: 14 } } }
+        }
+    },
     data: {
         labels: ['Comté', 'Vesterhavsost', 'Gammel knas (Arla Unika)', 'Danbo'],
         datasets: [{
@@ -17,6 +26,15 @@ const pris = document.querySelector('#prisGrupper').getContext('2d');
 
 const prisGrupper = new Chart(pris, {
     type: 'bar',
+    options: {
+        plugins: {
+            legend: { display: false }
+        },
+        scales: {
+            x: { ticks: { font: { size: 14 } } },
+            y: { ticks: { font: { size: 14 } } }
+        }
+    },
     data: {
         labels: ['Under 30 kr.', '30-34 kr.', '35-39 kr.', '40-49 kr.', '50 kr. og op'],
         datasets: [{
