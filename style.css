@@ -9,33 +9,57 @@ body {
 header {
     background-color: #FFE77D;
     margin: 20px auto;
-    padding: 50px 0;
+    padding: 20px 0;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
 }
-ul {
+
+.navigation {
+    width: 100%;
+    background-color: #CC8B41;
+    padding: 15px 0;
+    box-sizing: border-box;
     position: sticky;
     top: 0;
-    width: 100%;
+    z-index: 1000;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
-ul li {
-    float: left;
-}
 
-ul li a {
-    display: block;
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
     color: #4D300F;
-    text-align: center;
-    padding: 16px 14px;
+    background: #FFE77D;
+    padding: 16px 25px;
+    border-radius: 10px;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    background: #4D300F;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.overskrift h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
 }
 
 #ostetype {
@@ -44,6 +68,8 @@ ul li a {
     text-align: center;
     padding: 20px;
     width: 100%;
+    outline-style: inset;
+    outline-color: #CC8B41;
 }
 #ostetype h2 {
     color: #4D300F;
@@ -63,6 +89,8 @@ ul li a {
     text-align: center;
     padding: 20px;
     width: 100%;
+    outline-style: inset;
+    outline-color: #CC8B41;
 }
 #prisgruppe h2 {
     color: #4D300F;
