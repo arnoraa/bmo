@@ -6,9 +6,9 @@ const osteTyper = new Chart(ost, {
         datasets: [{
             label: "BMO-score",
             data: [4.47, 4.78, 4.61, 3.18],
-            backgroundColor: ['#FFE77D', '#FFE77D', '#FFE77D', '#FFE77D'],
-            borderColor: '#333',
-            borderWidth: 0.5,
+            backgroundColor: ['#CC8B41', '#CC8B41', '#CC8B41', '#4D300F'],
+            borderColor: '#4D300F',
+            borderWidth: 1,
         }]
     }
 })
@@ -22,9 +22,9 @@ const prisGrupper = new Chart(pris, {
         datasets: [{
             label: "BMO-score",
             data: [3.34, 4.65, 4.57, 4.78, 4.20],
-            backgroundColor: ['#CC8B41', '#CC8B41', '#CC8B41', '#CC8B41'],
-            borderColor: '#333',
-            borderWidth: 0.5,
+            backgroundColor: ['#4D300F', '#CC8B41', '#CC8B41', '#CC8B41', '#CC8B41'],
+            borderColor: '#4D300F',
+            borderWidth: 1,
         }]
     }
 })
