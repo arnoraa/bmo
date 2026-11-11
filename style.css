@@ -208,6 +208,49 @@ header {
     font-weight: bold;
 }
 
+#indsigter {
+    background-color: #FFCF21;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    outline-style: inset;
+    outline-color: #CC8B41;
+    font-family: "Times New Roman", Times, serif;
+    color: #4D300F;
+}
+
+#indsigter h2 {
+    text-align: left;
+}
+
+.indsigter-gitter {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 20px;
+}
+
+.indsigt {
+    background: #FFE77D;
+    border-top: 6px solid #4D300F;
+    padding: 16px;
+    text-align: left;
+}
+
+.indsigt .tal {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.indsigt h3 {
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+.indsigt p {
+    margin: 0;
+}
+
 footer {
     background-color: #FFE77D;
     color: #4D300F;
