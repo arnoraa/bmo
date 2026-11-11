@@ -57,3 +57,22 @@ ul li a {
     font-family: "Times New Roman", Times, serif;
 }
 
+#prisgruppe {
+    background-color: #FFCF21;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+#prisgruppe h2 {
+    color: #4D300F;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#prisgruppe p {
+    color: #4D300F;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
