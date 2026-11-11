@@ -11,7 +11,7 @@ const osteTyper = new Chart(ost, {
         }
     },
     data: {
-        labels: ['Comté', 'Vesterhavsost', 'Gammel knas ', 'Danbo'],
+        labels: ['Comté', 'Vesterhavsost', 'Gammel knas', 'Danbo'],
         datasets: [{
             label: "BMO-score",
             data: [4.47, 4.78, 4.61, 3.18],
