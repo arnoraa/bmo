@@ -156,6 +156,7 @@ article p {
 }
 
 #prisgruppe p {
+    font-size: 20px;
     color: #4D300F;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
@@ -192,6 +193,7 @@ article p {
 #pivot h2,
 #pivot p {
     text-align: left;
+    font-size: 20px;
 }
 
 .tabel-ramme {
@@ -287,6 +289,8 @@ article p {
 
 .indsigt p {
     margin: 0;
+    font-size: 20px;
+
 }
 .budskab {
     font-family: "Times New Roman", Times, serif;
@@ -330,6 +334,7 @@ article p {
 #cta h2,
 #cta p {
     text-align: left;
+    font-size: 20px;
 }
 
 .cta-kort {
