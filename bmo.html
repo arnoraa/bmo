@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolle med ost</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -9,7 +10,7 @@
 <body>
     <header>
         <div class="navigation">
-            <nav class="linjediagram">
+            <nav class="menu">
                 <ul>
                     <li><a href="#ostetype">Gennemsnit pr. ostetype</a></li>
                     <li><a href="#prisgruppe">Gennemsnit pr. prisgruppe</a></li>
@@ -24,7 +25,7 @@
 
         <section id="ostetype">
             <h2>Gennemsnit pr. ostetype</h2>
-            <p>Linjegrafen viser BMO-score pr. ostetype. Kun oste mindst 3 steder.</p>
+            <p>Søjlediagrammet viser BMO-score pr. ostetype. Kun oste mindst 3 steder.</p>
             <canvas id="osteTyper"></canvas>
         </section>
 
@@ -32,7 +33,7 @@
 
         <section id="prisgruppe">
             <h2>Gennemsnit pr. prisgruppe</h2>
-            <p>Linjegrafen viser BMO-score pr. prisgruppe. Steder uden registreret pris er udeladt.</p>
+            <p>Søjlediagrammet viser BMO-score pr. prisgruppe. Steder uden registreret pris er udeladt.</p>
             <canvas id="prisGrupper"></canvas>
         </section>
     </main>
