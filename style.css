@@ -16,6 +16,10 @@ header {
     text-align: center;
 }
 
+section {
+    scroll-margin-top: 90px;
+}
+
 .navigation {
     width: 100%;
     background-color: #CC8B41;
@@ -56,18 +60,45 @@ header {
     transform: translateY(-3px);
 }
 
-.overskrift h1 {
+.hovedmenu h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 56px;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
 
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article h2 {
+    margin: 35px 0;
+    padding: 0 10px;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 65ch;
+}
+
+article p {
+    margin: 35px 0;
+    padding: 0 10px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 65ch;
+}
+
+
+
 #ostetype {
     background-color: #FFCF21;
     box-sizing: border-box;
-    max-width: 1000px;
-    text-align: center;
+    max-width: none;
+    width: auto;
+    text-align: left;
     padding: 35px;
     margin: 35px auto 0;
     outline-style: inset;
@@ -78,21 +109,23 @@ header {
     color: #4D300F;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
 }
 
 #ostetype p {
     color: #4D300F;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
 }
 
 #ostetype .chart {
     background-color: #FFF9ED;
     max-width: 600px;
-    margin: 35px auto;
+    margin: 30px auto;
     padding: 30px;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #ostetype canvas {
@@ -106,7 +139,8 @@ header {
 #prisgruppe {
     background-color: #FFCF21;
     box-sizing: border-box;
-    max-width: 1000px;
+    max-width: none;
+    width: auto;
     text-align: center;
     padding: 35px;
     margin: 35px auto;
@@ -117,6 +151,7 @@ header {
     color: #4D300F;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
 }
 
 #prisgruppe p {
@@ -145,7 +180,8 @@ header {
     background-color: #FFCF21;
     box-sizing: border-box;
     padding: 20px;
-    width: 100%;
+    max-width: none;
+    width: auto;
     outline-style: inset;
     outline-color: #CC8B41;
     font-family: "Times New Roman", Times, serif;
@@ -212,7 +248,8 @@ header {
     background-color: #FFCF21;
     box-sizing: border-box;
     padding: 20px;
-    width: 100%;
+    max-width: none;
+    width: auto;
     outline-style: inset;
     outline-color: #CC8B41;
     font-family: "Times New Roman", Times, serif;
